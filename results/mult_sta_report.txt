@@ -1,0 +1,164 @@
+Design mult: 1251 instances, 4320 pins/ports, 5963 arcs (2988 cell, 2975 net)
+Clock clk period 0.4548 ns, uncertainty 0.010 ns
+Endpoints checked: 96   WNS: 0.097 ns   TNS: 0.000 ns   Violations: 0
+Minimum clock period: 0.3580 ns (Fmax 2793 MHz)
+Runtime: 30.0 ms
+
+Path 1: MET setup check at prod_reg[23]/D (rise)
+  Startpoint: a_reg_reg[7]/Q
+  Pin                                 Edge     Incr  Arrival
+  clk                                    ^    0.000    0.000
+  CTS_ccl_a_inv_00002/I                  ^    0.000    0.000
+  CTS_ccl_a_inv_00002/ZN                 v    0.011    0.011
+  CTS_ccl_a_inv_00001/I                  v    0.001    0.012
+  CTS_ccl_a_inv_00001/ZN                 ^    0.012    0.024
+  a_reg_reg[7]/CP                        ^    0.003    0.027
+  a_reg_reg[7]/Q                         v    0.055    0.082
+  FE_OCPC211_a_reg_7/I                   v    0.000    0.082
+  FE_OCPC211_a_reg_7/Z                   v    0.014    0.096
+  U168/A1                                v    0.000    0.096
+  U168/Z                                 v    0.020    0.116
+  U79/A2                                 v    0.000    0.116
+  U79/ZN                                 ^    0.014    0.130
+  U470/A1                                ^    0.000    0.130
+  U470/ZN                                v    0.019    0.149
+  U477/CI                                v    0.001    0.150
+  U477/S                                 ^    0.047    0.197
+  FE_RC_99_0/A1                          ^    0.000    0.197
+  FE_RC_99_0/ZN                          ^    0.013    0.210
+  FE_RC_338_0/B                          ^    0.000    0.210
+  FE_RC_338_0/ZN                         v    0.012    0.222
+  U474/A1                                v    0.000    0.222
+  U474/ZN                                ^    0.013    0.235
+  U476/A2                                ^    0.000    0.235
+  U476/ZN                                v    0.014    0.249
+  U488/A1                                v    0.000    0.249
+  U488/ZN                                ^    0.014    0.263
+  FE_RC_212_0/A1                         ^    0.000    0.263
+  FE_RC_212_0/ZN                         ^    0.013    0.276
+  FE_RC_201_0/A1                         ^    0.000    0.276
+  FE_RC_201_0/ZN                         v    0.015    0.291
+  FE_RC_202_0/A1                         v    0.000    0.291
+  FE_RC_202_0/ZN                         ^    0.012    0.303
+  FE_RC_16_0/A1                          ^    0.000    0.303
+  FE_RC_16_0/ZN                          v    0.010    0.313
+  FE_RC_181_0/I                          v    0.000    0.313
+  FE_RC_181_0/ZN                         ^    0.006    0.319
+  FE_RC_180_0_dup/A2                     ^    0.000    0.319
+  FE_RC_180_0_dup/ZN                     ^    0.018    0.337
+  FE_RC_317_0/A1                         ^    0.000    0.337
+  FE_RC_317_0/ZN                         ^    0.013    0.350
+  U848/A1                                ^    0.000    0.350
+  U848/Z                                 ^    0.018    0.368
+  prod_reg[23]/D                         ^    0.000    0.368
+  Capture clock latency     0.032
+  Setup                     0.012
+  Required time             0.465
+  Arrival time              0.368
+  Slack                     0.097
+
+Path 2: MET setup check at prod_reg[22]/D (rise)
+  Startpoint: a_reg_reg[7]/Q
+  Pin                                 Edge     Incr  Arrival
+  clk                                    ^    0.000    0.000
+  CTS_ccl_a_inv_00002/I                  ^    0.000    0.000
+  CTS_ccl_a_inv_00002/ZN                 v    0.011    0.011
+  CTS_ccl_a_inv_00001/I                  v    0.001    0.012
+  CTS_ccl_a_inv_00001/ZN                 ^    0.012    0.024
+  a_reg_reg[7]/CP                        ^    0.003    0.027
+  a_reg_reg[7]/Q                         v    0.055    0.082
+  FE_OCPC211_a_reg_7/I                   v    0.000    0.082
+  FE_OCPC211_a_reg_7/Z                   v    0.014    0.096
+  U168/A1                                v    0.000    0.096
+  U168/Z                                 v    0.020    0.116
+  U79/A2                                 v    0.000    0.116
+  U79/ZN                                 ^    0.014    0.130
+  U470/A1                                ^    0.000    0.130
+  U470/ZN                                v    0.019    0.149
+  U477/CI                                v    0.001    0.150
+  U477/S                                 ^    0.047    0.197
+  FE_RC_99_0/A1                          ^    0.000    0.197
+  FE_RC_99_0/ZN                          ^    0.013    0.210
+  FE_RC_338_0/B                          ^    0.000    0.210
+  FE_RC_338_0/ZN                         v    0.012    0.222
+  U474/A1                                v    0.000    0.222
+  U474/ZN                                ^    0.013    0.235
+  U476/A2                                ^    0.000    0.235
+  U476/ZN                                v    0.014    0.249
+  U488/A1                                v    0.000    0.249
+  U488/ZN                                ^    0.014    0.263
+  FE_RC_212_0/A1                         ^    0.000    0.263
+  FE_RC_212_0/ZN                         ^    0.013    0.276
+  FE_RC_201_0/A1                         ^    0.000    0.276
+  FE_RC_201_0/ZN                         v    0.015    0.291
+  FE_RC_202_0/A1                         v    0.000    0.291
+  FE_RC_202_0/ZN                         ^    0.012    0.303
+  FE_RC_16_0/A1                          ^    0.000    0.303
+  FE_RC_16_0/ZN                          v    0.010    0.313
+  FE_RC_181_0/I                          v    0.000    0.313
+  FE_RC_181_0/ZN                         ^    0.006    0.319
+  FE_RC_180_0/A2                         ^    0.000    0.319
+  FE_RC_180_0/ZN                         ^    0.020    0.339
+  FE_RC_354_0/A1                         ^    0.000    0.339
+  FE_RC_354_0/ZN                         ^    0.011    0.350
+  U851/A1                                ^    0.000    0.350
+  U851/Z                                 ^    0.018    0.368
+  prod_reg[22]/D                         ^    0.000    0.368
+  Capture clock latency     0.032
+  Setup                     0.012
+  Required time             0.465
+  Arrival time              0.368
+  Slack                     0.097
+
+Path 3: MET setup check at prod_reg[25]/D (rise)
+  Startpoint: a_reg_reg[7]/Q
+  Pin                                 Edge     Incr  Arrival
+  clk                                    ^    0.000    0.000
+  CTS_ccl_a_inv_00002/I                  ^    0.000    0.000
+  CTS_ccl_a_inv_00002/ZN                 v    0.011    0.011
+  CTS_ccl_a_inv_00001/I                  v    0.001    0.012
+  CTS_ccl_a_inv_00001/ZN                 ^    0.012    0.024
+  a_reg_reg[7]/CP                        ^    0.003    0.027
+  a_reg_reg[7]/Q                         v    0.055    0.082
+  FE_OCPC211_a_reg_7/I                   v    0.000    0.082
+  FE_OCPC211_a_reg_7/Z                   v    0.014    0.096
+  U168/A1                                v    0.000    0.096
+  U168/Z                                 v    0.020    0.116
+  U79/A2                                 v    0.000    0.116
+  U79/ZN                                 ^    0.014    0.130
+  U470/A1                                ^    0.000    0.130
+  U470/ZN                                v    0.019    0.149
+  U477/CI                                v    0.001    0.150
+  U477/S                                 ^    0.047    0.197
+  FE_RC_99_0/A1                          ^    0.000    0.197
+  FE_RC_99_0/ZN                          ^    0.013    0.210
+  FE_RC_338_0/B                          ^    0.000    0.210
+  FE_RC_338_0/ZN                         v    0.012    0.222
+  U474/A1                                v    0.000    0.222
+  U474/ZN                                ^    0.013    0.235
+  U476/A2                                ^    0.000    0.235
+  U476/ZN                                v    0.014    0.249
+  U488/A1                                v    0.000    0.249
+  U488/ZN                                ^    0.014    0.263
+  FE_RC_212_0/A1                         ^    0.000    0.263
+  FE_RC_212_0/ZN                         ^    0.013    0.276
+  FE_RC_201_0/A1                         ^    0.000    0.276
+  FE_RC_201_0/ZN                         v    0.015    0.291
+  FE_RC_202_0/A1                         v    0.000    0.291
+  FE_RC_202_0/ZN                         ^    0.012    0.303
+  FE_RC_16_0/A1                          ^    0.000    0.303
+  FE_RC_16_0/ZN                          v    0.010    0.313
+  FE_RC_181_0/I                          v    0.000    0.313
+  FE_RC_181_0/ZN                         ^    0.006    0.319
+  FE_RC_180_0_dup/A2                     ^    0.000    0.319
+  FE_RC_180_0_dup/ZN                     ^    0.018    0.337
+  U833/A1                                ^    0.000    0.337
+  U833/ZN                                v    0.012    0.349
+  U835/A1                                v    0.000    0.349
+  U835/Z                                 ^    0.019    0.368
+  prod_reg[25]/D                         ^    0.000    0.368
+  Capture clock latency     0.032
+  Setup                     0.012
+  Required time             0.465
+  Arrival time              0.368
+  Slack                     0.097

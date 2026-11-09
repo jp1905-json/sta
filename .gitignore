@@ -1,0 +1,6 @@
+sta
+test_sta
+*.o
+*.v
+*.sdf
+results/innovus_wc3_timing.txt
